@@ -1,0 +1,94 @@
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 50vw;
+  }
+}
+/*for small phone to big tablet  from 1024 to 1200px*/
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 60vw;
+  }
+}
+/*for small phone to small tablet  from 768 to 1023px*/
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 90vw;
+  }
+}
+/*for small phone to small tablet  from 481 to 767px*/
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 100vw;
+  }
+  .info-text h1 {
+    font-size: 15px;
+  }
+  .phone-image img {
+    width: 60%;
+  }
+  .icon-1,
+  .icon-2,
+  .icon-3 {
+    width: 7px;
+    height: 7px;
+  }
+  .value-image img {
+    width: 35%;
+  }
+  .info-text {
+    margin: 7% 0;
+  }
+  .download-more {
+    font-size: 8px;
+    justify-content: flex-start;
+  }
+  .more {
+    margin-left: 15px;
+  }
+  .download,
+  .more {
+    width: 30%;
+    padding: 8px;
+  }
+  .os-icons {
+    padding: 25px 0;
+  }
+  .apple img,
+  .android img,
+  .windows img {
+    width: 15px;
+    height: 15px;
+  }
+  .android,
+  .windows {
+    margin-left: 20px;
+  }
+}
+
+/*for small phones from zero to 480px*/
+@media only screen and (max-width: 480px) {
+  .container {
+    flex-direction: column;
+    padding-top: 10%;
+  }
+  .phone-image img {
+    width: 55%;
+  }
+  .info {
+    align-items: center;
+  }
+  .value-image {
+    display: flex;
+    justify-content: center;
+  }
+  .download-more {
+    flex-direction: column;
+  }
+  .download,
+  .more {
+    width: 100%;
+  }
+  .more {
+    margin: 5px 0;
+  }
+}
